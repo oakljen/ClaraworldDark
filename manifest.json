@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "CSS Injector Extension",
+  "version": "1.0",
+  "description": "Injects custom CSS into a specified webpage.",
+  "content_scripts": [{
+    "matches": ["https://claraworld.net/exercise/*"], 
+    "css": ["styles.css"]
+  }],
+  "icons": {
+    "128": "icon.png"
+  },
+  "permissions": []
+}
