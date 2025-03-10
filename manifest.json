@@ -7,8 +7,5 @@
     "matches": ["https://claraworld.net/exercise/*"], 
     "css": ["styles.css"]
   }],
-  "icons": {
-    "128": "icon.png"
-  },
   "permissions": []
 }
